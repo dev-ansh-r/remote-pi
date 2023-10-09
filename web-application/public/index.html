@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Machine Control</title>
+</head>
+<body>
+    <header>
+        <h1>Machine Control</h1>
+    </header>
+    <main>
+        <div class="machine">
+            <h2>Machine 1</h2>
+            <button class="on-button" onclick="sendCommand(1, 'turn_on')">Turn On</button>
+            <button class="off-button" onclick="sendCommand(1, 'turn_off')">Turn Off</button>
+        </div>
+        <div class="machine">
+            <h2>Machine 2</h2>
+            <button class="on-button" onclick="sendCommand(2, 'turn_on')">Turn On</button>
+            <button class="off-button" onclick="sendCommand(2, 'turn_off')">Turn Off</button>
+        </div>
+        <!-- Add more machines as needed -->
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
